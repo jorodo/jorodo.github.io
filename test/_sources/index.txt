@@ -46,7 +46,7 @@ Code
 
 Most of my work these days is proprietary.  However, I'm in the process of
 moving some of my open projects (mostly from graduate school days) to github:
-`jrd's code repositories`_.  My biggest coding project in graduate school was
+`jorodo on github`_.  My biggest coding project in graduate school was
 writing JLS_, a Monte Carlo engine implementing several enhanced sampling
 techniques for core-softened model liquids.
 
