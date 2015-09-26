@@ -97,7 +97,7 @@ Here are some of my contacts:
 
 .. _`Peter Rossky`:  http://naturalsciences.rice.edu/ShowContent.aspx?id=1232
 
-.. _`jrd's code repositories`: https://github.com/jorodo?tab=repositories
+.. _`jorodo on github`: https://github.com/jorodo
 
 .. _JLS: https://github.com/jorodo/jls
 
