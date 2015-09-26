@@ -1,0 +1,105 @@
+.. jrd.spinodal.org documentation master file, created by
+   sphinx-quickstart on Sat Aug 29 23:34:01 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+==============
+John R. Dowdle
+==============
+
+In my work life I am a computational chemical engineer at The Dow Chemical
+Company where I develop simulation capabilities for gas-liquid separation
+processes.  In my home life, my wife and I are busy raising our two young
+children.  In rare moments of spare time some of the things I enjoy include the
+outdoors, backpacking, music, Linux, and reading.
+
+My Contact Information
+----------------------
+
+- **Email**: my three initials at spinodal.org
+- **GPG**: 0x00CBB2F9_
+- **IRC**: jrd on irc.oftc.net
+- **Social**:  LinkedIn_
+- **Phone**: by request
+
+Work & Research
+---------------
+
+My expertise is in the areas of molecular thermodynamics and scientific &
+engineering software development, although more recently I have also been
+involved in kinetics & reaction engineering research.  My current projects at
+Dow Chemical are focused on developing rate-based models for gas-liquid
+separations.
+
+Prior to joining Dow, I completed my Ph.D. at The University of Texas at Austin
+in the general area of statistical thermodynamics of liquids. Eventually I will
+attempt to write a high-level summary of my graduate work here, but in the
+meantime, here is a copy of my dissertation_.
+
+I am interested in applying my skills in simulation and software development to
+a broad range of industrial topics including acid gas treating, carbon capture
+& storage, petroleum reservoir thermodynamics, and natural gas storage &
+production.
+
+Code
+----
+
+Most of my work these days is proprietary.  However, I'm in the process of
+moving some of my open projects (mostly from graduate school days) to github:
+`jrd's code repositories`_.  My biggest coding project in graduate school was
+writing JLS_, a Monte Carlo engine implementing several enhanced sampling
+techniques for core-softened model liquids.
+
+My most familiar languages are Python, C++, and C.  I'm fairly well acquainted
+with Fortran as well, and I'm experienced with application development on Linux
+and MS Windows.
+
+.. Resources
+.. ---------
+.. 
+.. Some resources and docs here.
+
+Contacts
+--------
+
+Here are some of my contacts:
+
+- `Walter L. Dowdle`_: Reservoir Engineer at Dowdle & Associates, Inc., with
+  whom I'm an Associate.  Also my father.
+- `Walt Dowdle`_:  Virtualization consultant at VMWare.  Also my brother.
+- `Richard Darst`_: Richard and I worked in the Rossky group together at UT
+  Austin.
+- `Mike Depalatis`_: I also know Mike through UT Austin.
+- `Adam Willard`_: Adam and I worked in the Rossky group together at UT
+  Austin.
+- `Edwin van Elk-Penders`_: Edwin and I have worked together on projects at
+  Dow.
+- `Peter J. Rossky`_:  My graduate advisor at Texas (now at Rice).
+
+
+.. _LinkedIn: https://www.linkedin.com/in/jrdowdle
+
+.. _dissertation: http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-12-4428
+
+.. _0x00CBB2F9: http://pgp.mit.edu/pks/lookup?op=get&search=0xEA3D7AB000CBB2F9
+
+.. _`Walter L. Dowdle`:  https://www.linkedin.com/pub/walter-dowdle/b/710/a66
+
+.. _`Walt Dowdle`:  https://www.linkedin.com/in/waltdowdle
+
+.. _`Richard Darst`: http://rkd.zgib.net
+
+.. _`Mike Depalatis`: http://mike.depalatis.net
+
+.. _`Edwin van Elk-Penders`:  http://vanelk.nl/edwin/
+
+.. _`Adam Willard`:  http://willardgroup.mit.edu/current_members.html
+
+.. _`Peter Rossky`:  http://naturalsciences.rice.edu/ShowContent.aspx?id=1232
+
+.. _`jrd's code repositories`: https://github.com/jorodo?tab=repositories
+
+.. _JLS: https://github.com/jorodo/jls
+
+.. _`Peter J. Rossky`: http://naturalsciences.rice.edu/ShowContent.aspx?id=1232
+
