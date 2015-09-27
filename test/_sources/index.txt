@@ -17,7 +17,7 @@ My Contact Information
 ----------------------
 
 - **Email**: my three initials at spinodal.org
-- **GPG**: 0x00CBB2F9_
+- **GPG**: `0xEA3D7AB000CBB2F9`_
 - **IRC**: jrd on irc.oftc.net
 - **Social**:  LinkedIn_
 - **Phone**: by request
@@ -81,7 +81,7 @@ Here are some of my contacts:
 
 .. _dissertation: http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-12-4428
 
-.. _0x00CBB2F9: http://pgp.mit.edu/pks/lookup?op=get&search=0xEA3D7AB000CBB2F9
+.. _`0xEA3D7AB000CBB2F9`: https://sks-keyservers.net/pks/lookup?op=get&search=0xEA3D7AB000CBB2F9
 
 .. _`Walter L. Dowdle`:  https://www.linkedin.com/pub/walter-dowdle/b/710/a66
 
