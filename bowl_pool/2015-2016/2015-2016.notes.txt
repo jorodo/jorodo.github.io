@@ -1,18 +1,13 @@
 Notes:
 ------
 
- * FIELDS OF WHEAT is entered twice with exactly the same picks, except that
-   one version has no sure thing bowls.
+ * The following teams do not have 3 sure thing bowls:
 
  * The following teams do not have 3 sure thing bowls:
-    - 1 Beach Bum (0)
-    - 12 COUGAR (0)
-    - 20 FIELDS OF WHEAT (0)
-    - 34 Hunter 55 (2)
-    - 37 Julia (0)
-    - 48 Santa Cruz Bill (0)
-    - 57 Team Aaron (4)
-    - 63 Trollotopia (2)
+   - 34 Hunter 55 (2)
+   - 37 Julia (0)
+   - 58 Team Aaron (4)
+   - 64 Trollotopia (2)
 
  * Note especially that Team Aaron has picked four sure thing bowls.
 
