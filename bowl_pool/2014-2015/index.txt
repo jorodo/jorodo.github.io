@@ -1,7 +1,7 @@
-**2015-2016 Bowl Pool**
+**2014-2015 Bowl Pool**
 
-| *Last updated:  2015-12-29 16:08:30*
-| *Last bowl scored:  QUICK LANE BOWL (Minnesota vs. Central Michigan)*
+| *Last updated:  2015-01-14 21:23:51*
+| *Last bowl scored:  GODADDY.COM BOWL (Toledo vs. Arkasas State)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)

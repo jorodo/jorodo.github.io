@@ -11,7 +11,7 @@ In my work life I am a computational chemical engineer at The Dow Chemical
 Company where I develop simulation capabilities for gas-liquid separation
 processes.  In my home life, my wife and I are busy raising our two young
 children.  In rare moments of spare time some of the things I enjoy include the
-outdoors, backpacking, music, Linux, and reading.
+outdoors, backpacking, music, GNU/Linux, and reading.
 
 My Contact Information
 ----------------------
@@ -66,14 +66,11 @@ Here are some of my contacts:
 
 - `Walter L. Dowdle`_: Reservoir Engineer at Dowdle & Associates, Inc., with
   whom I'm an Associate.  Also my father.
-- `Walt Dowdle`_:  Virtualization consultant at VMWare.  Also my brother.
+- `Walt Dowdle`_:  Sr. Systems Engineer at Newgistics.  Also my brother.
 - `Richard Darst`_: Richard and I worked in the Rossky group together at UT
   Austin.
-- `Mike Depalatis`_: I also know Mike through UT Austin.
-- `Adam Willard`_: Adam and I worked in the Rossky group together at UT
-  Austin.
-- `Edwin van Elk-Penders`_: Edwin and I have worked together on projects at
-  Dow.
+- `Mike Depalatis`_: I also know Mike through grad school at UT Austin.
+- `Adam Willard`_: Also a former Rossky group member.
 - `Peter J. Rossky`_:  My graduate advisor at Texas (now at Rice).
 
 
