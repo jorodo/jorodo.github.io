@@ -1,4 +1,4 @@
-| *Last updated:  2015-12-29 17:56:42*
+| *Last updated:  2015-12-29 18:09:15*
 | *Last bowl scored:  QUICK LANE BOWL (Minnesota vs. Central Michigan)*
 
 | 1. Santa Cruz Bill 14.5
@@ -28,7 +28,7 @@
 | 24. Spiker 10.5
 | 24. KROB15 10.5
 | 24. Hui Mama 10.5
-| 24. Eclipse 10.5
+| 24. **Eclipse 10.5**
 | 29. Lucky in 2016 10.25
 | 29. Hou Dat 10.25
 | 29. Cotton Headed Ninny Muggins 10.25
@@ -60,7 +60,7 @@
 | 55. Billy Bad 2nd 7.5
 | 55. Billy Bad 7.5
 | 59. Team Aaron 7.25
-| 59. Groodle 7.25
+| 59. **Groodle 7.25**
 | 61. **Mama Bear 7.0**
 | 62. Magnitogorsk 6.75
 | 63. Frog Man 4Ever 6.5
