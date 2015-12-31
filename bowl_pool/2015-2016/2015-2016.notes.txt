@@ -9,4 +9,9 @@ Notes:
 
  * Note especially that Team Aaron has picked four sure thing bowls.
 
+ * Eclipse has "Y" picked for the national champion (should be one of A, C, M,
+   or O).
+
+
+
    
