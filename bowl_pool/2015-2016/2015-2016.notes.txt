@@ -1,17 +1,25 @@
 Notes:
 ------
 
+ * Team Aaron has picked four sure thing bowls.
+
+ * Hunter 55's pick for the Alabama/Mich St. game is "AL" instead of "A", and
+   as a result he received no points in Rob's spreadsheet.  I'm assuming he
+   meant Alabama.
+
  * The following teams do not have 3 sure thing bowls:
    - 34 Hunter 55 (2)
-   - 37 Julia (0)
+   - 37 Blondy (0)
    - 58 Team Aaron (4)
    - 64 Trollotopia (2)
-
- * Note especially that Team Aaron has picked four sure thing bowls.
 
  * Eclipse has "Y" picked for the national champion (should be one of A, C, M,
    or O).
 
+ * There was no entry for Beach Bum's bonus Q #5 (Derrick Henry ...)
 
+ * Opposite of Dad chose "TO" for Va. Tech vs Tulsa.  I'm assuming this is
+   supposed to be Tulsa.
 
-   
+ * Opposite of Dad chose "TO" for LSU vs Texas Tech.  I'm assuming this should
+   be Texas Tech.
