@@ -1,7 +1,7 @@
 **2015-2016 Bowl Pool**
 
-| *Last updated:  2016-01-01 16:16:23*
-| *Last bowl scored:  CITRUS BOWL (Michigan vs. Florida)*
+| *Last updated:  2016-01-01 20:17:12*
+| *Last bowl scored:  ROSE BOWL (Stanford vs. Iowa)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
