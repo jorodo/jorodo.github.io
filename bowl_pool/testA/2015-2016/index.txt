@@ -1,0 +1,16 @@
+**2015-2016 Bowl Pool**
+
+| *Last updated:  2016-01-03 12:51:48*
+| *Last bowl scored:  CACTUS BOWL (West Virginia vs. Arizona State)*
+
+
+- `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
+- `Results <results.html>`_ (`csv <results.csv>`__)
+- `Picks <picks.html>`_ (`csv <picks.csv>`__)
+
+Analysis
+
+- `Score distribution <scoresHistogram.png>`_
+- `Points Trajectories <pointsTrajectories.png>`_
+- `Rankings Trajectories <rankingsTrajectories.png>`_
+
