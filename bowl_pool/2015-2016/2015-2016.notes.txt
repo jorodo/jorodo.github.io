@@ -1,7 +1,12 @@
 Notes:
 ------
 
- * Team Aaron has picked four sure thing bowls.
+ * Team Aaron picked four sure thing bowls.  He won all four of them, getting 4
+   extra points.  I removed his last sure thing pick for the Stanford/Iowa game
+   so that he only gets 3 points.
+
+ * Eclipse has "Y" picked for the national champion (should be one of A, C, M,
+   or O).
 
  * Hunter 55's pick for the Alabama/Mich St. game is "AL" instead of "A", and
    as a result he received no points in Rob's spreadsheet.  I'm assuming he
@@ -12,9 +17,6 @@ Notes:
    - 37 Blondy (0)
    - 58 Team Aaron (4)
    - 64 Trollotopia (2)
-
- * Eclipse has "Y" picked for the national champion (should be one of A, C, M,
-   or O).
 
  * There was no entry for Beach Bum's bonus Q #5 (Derrick Henry ...)
 
