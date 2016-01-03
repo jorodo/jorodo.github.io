@@ -1,7 +1,7 @@
 **2015-2016 Bowl Pool**
 
-| *Last updated:  2016-01-01 23:57:15*
-| *Last bowl scored:  SUGAR BOWL (Ole Miss vs. Oklahoma State)*
+| *Last updated:  2016-01-02 22:15:46*
+| *Last bowl scored:  ALAMO BOWL (Oregon vs. TCU)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
