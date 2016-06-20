@@ -57,7 +57,7 @@ kwargs = {'linestyle': '--', 'color': 'r', 'linewidth': '0.75', 'marker':
 p3, = ax1.plot_date(rosharon_dates, communication_stage, **kwargs)
 ax1.set_ylabel('Rosharon Gauge Height [ft]')
 ax.set_xlim(mpl.dates.date2num(datetime.datetime(2016,5,30)),
-            mpl.dates.date2num(datetime.datetime(2016,6,19)))
+            mpl.dates.date2num(datetime.datetime(2016,6,21)))
 # ax.xaxis.set_major_locator(mpl.dates.DayLocator())
 # ax.xaxis.set_minor_locator(mpl.dates.HourLocator(np.arange(0, 25, 8)))
 # ax.xaxis.set_minor_locator(mpl.dates.DayLocator())
