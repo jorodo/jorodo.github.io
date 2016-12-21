@@ -1,0 +1,16 @@
+**2016-2017 Bowl Pool**
+
+| *Last updated:  2016-12-20 19:24:48*
+| *Last bowl scored:  MIAMI BEACH BOWL (Tulsa vs. Central Michigan)*
+
+
+- `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
+- `Results <results.html>`_ (`csv <results.csv>`__)
+- `Picks <picks.html>`_ (`csv <picks.csv>`__)
+
+Analysis
+
+- `Score distribution <scoresHistogram.png>`_
+- `Points Trajectories <pointsTrajectories.png>`_
+- `Rankings Trajectories <rankingsTrajectories.png>`_
+
