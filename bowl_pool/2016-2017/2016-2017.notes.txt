@@ -1,0 +1,66 @@
+Update 2016-12-28
+=================
+
+Errors in Scoring
+-----------------
+
+* CORRECTED: Error in the formula for scoring the second bowl game (Western
+  Kentucky vs. Memphis).  No one got any points for that game as a result.
+
+* CORRECTED: #MamaBear's score is inflated by 1.25 points due to prematurely
+   counting the Georgia Tech vs. Kentucky game (not yet played) in her favor.
+   This error only appeared in #MamaBear's score.
+
+Errors on Picks
+---------------
+
+Program Output:
+
+    error: bowl 3, team Godiva, pick V does not match fav or dog.
+        guessing favorite.
+    error: bowl 9, team Cowboy, pick M  does not match fav or dog.
+        guessing dog.
+    error: bowl 12, team After Further Review, pick S does not match fav or dog.
+        guessing favorite.
+    error: bowl 20, team EM43, pick S does not match fav or dog.
+        guessing dog.
+    error: bowl 20, team Thetis, pick S does not match fav or dog.
+        guessing dog.
+    error: bowl 29, team Eclipse, pick x does not match fav or dog.
+        guessing favorite.
+
+Note that this code requires every pick to be a fav or a dog.  Hence I have to
+make some assumptions on these errors ... either I guess what they really
+picked, or I just don't give them credit at all (by making their pick the loser
+of the game).  Currently I'm giving them the benefit of the doubt by assuming
+the following things:
+
+* ASSUMED Godiva picked B for BYU
+
+* ASSUMED Cowboy picked A for Army
+
+* ASSUMED After Further Review picked A for Army
+
+* ASSUMED EM43 picked SF for South Florida
+
+* ASSUMED Thetis picked SF for South Florida
+
+* ASSUMED Eclipse picked G for Georgia Tech
+
+
+Errors on Sure Thing Bowls
+--------------------------
+
+The following teams do not have 3 sure thing bowl picks:
+
+* NOTE: 39 OSUX3 Fan has 5 sure thing bowl picks
+* NOTE: 52 Troll Factory Inc has 4 sure thing bowl picks
+
+Also,
+
+* CORRECTED: Bumblerooski picked Army in the Heart of Dallas Bowl as a sure
+  thing, but the spreadsheet does not have this marked as sure thing and
+  instead has him picking Temple for a sure thing bowl.
+
+
+
