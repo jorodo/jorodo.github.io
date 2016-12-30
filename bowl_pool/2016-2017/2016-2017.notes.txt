@@ -51,16 +51,22 @@ the following things:
 Errors on Sure Thing Bowls
 --------------------------
 
+* CORRECTED: Bumblerooski picked Army in the Heart of Dallas Bowl as a sure
+  thing, but the spreadsheet does not have this marked as sure thing and
+  instead has him picking Temple for a sure thing bowl.
+
+* NOTE: In the Cactus Bowl (Baylor vs. Boise State), the spreadsheet has "B"
+  for Baylor and "BS" for Boise State, but the convention is to append "S" to
+  the pick if it is a sure thing pick.  This is in conflict with the assignment
+  here, because picking Baylor as a sure thing results in "BS", which denotes
+  picking Boise State (picking Boise State as a sure thing gives "BSS").  Of
+  course, this doesn't matter if no one out there picked Baylor as a sure thing.
+
 The following teams do not have 3 sure thing bowl picks:
 
 * NOTE: 39 OSUX3 Fan has 5 sure thing bowl picks
 * NOTE: 52 Troll Factory Inc has 4 sure thing bowl picks
 
-Also,
-
-* CORRECTED: Bumblerooski picked Army in the Heart of Dallas Bowl as a sure
-  thing, but the spreadsheet does not have this marked as sure thing and
-  instead has him picking Temple for a sure thing bowl.
 
 
 
