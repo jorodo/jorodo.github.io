@@ -1,7 +1,7 @@
 **2016-2017 Bowl Pool**
 
-| *Last updated:  2016-12-31 09:29:21*
-| *Last bowl scored:  ORANGE BOWL   (Michigan vs. Florida State)*
+| *Last updated:  2017-01-01 12:07:17*
+| *Last bowl scored:  FIESTA BOWL (Ohio State vs. Clemson)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
