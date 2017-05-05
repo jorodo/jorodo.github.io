@@ -19,7 +19,7 @@ My Contact Information
 - **Email**: my three initials at spinodal.org
 - **GPG**: `0xEA3D7AB000CBB2F9`_
 - **IRC**: jrd on irc.oftc.net
-- **Social**:  LinkedIn_
+- **Social**:  LinkedIn_, GitHub_
 - **Phone**: by request
 
 Work & Research
@@ -75,6 +75,8 @@ Here are some of my contacts:
 
 
 .. _LinkedIn: https://www.linkedin.com/in/jrdowdle
+
+.. _GitHub: https://github.com/jorodo
 
 .. _dissertation: http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-12-4428
 
