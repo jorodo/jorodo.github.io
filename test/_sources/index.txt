@@ -23,6 +23,10 @@ My Contact Information
 Work & Research
 ---------------
 
+**CV**: LinkedIn_ |br|\
+**Publications**: Scholar_ |br|\
+**Code**: GitHub_ |br|\
+
 **Expertise areas**:
 
 - Molecular thermodynamics
@@ -40,11 +44,7 @@ Work & Research
 - Petroleum phase behavior
 - Natural gas storage & production
 - Reservoir modeling
-
-**Publications**: Scholar_ |br|\
-**Code**: GitHub_ |br|\
-**CV**: LinkedIn_ |br|\
-  
+ 
 Contacts
 --------
 
@@ -67,8 +67,6 @@ Contacts
 .. _Scholar: https://scholar.google.com/citations?user=PSTpIbkAAAAJ&hl=en&oi=sra
 
 .. _dissertation: http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-12-4428
-
-.. _`0xEA3D7AB000CBB2F9`: https://sks-keyservers.net/pks/lookup?op=get&search=0xEA3D7AB000CBB2F9
 
 .. _`Walter L. Dowdle`:  https://www.linkedin.com/pub/walter-dowdle/b/710/a66
 
