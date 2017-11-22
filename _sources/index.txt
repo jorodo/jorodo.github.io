@@ -7,76 +7,64 @@
 John R. Dowdle
 ==============
 
-In my work life I am a computational chemical engineer at The Dow Chemical
-Company where I develop simulation capabilities for gas-liquid separation
-processes.  In my home life, my wife and I are busy raising our two young
-children.  In rare moments of spare time some of the things I enjoy include the
-outdoors, backpacking, music, GNU/Linux, and reading.
+In my work life, I am a research scientist at The Dow Chemical Company where I
+work in the general area of gas-liquid separations.  In my home life, my wife
+and I are busy raising our two young children.  In rare moments of spare time
+some of the things I enjoy include backpacking, music, GNU/Linux, and reading.
 
 My Contact Information
 ----------------------
 
 - **Email**: my three initials at spinodal.org
-- **GPG**: `0xEA3D7AB000CBB2F9`_
+- **GPG**: CD0C B25C B078 911B 17B4 E24D EA3D 7AB0 00CB B2F9
 - **IRC**: jrd on irc.oftc.net
-- **Social**:  LinkedIn_, GitHub_
 - **Phone**: by request
 
 Work & Research
 ---------------
 
-My expertise is in the areas of molecular thermodynamics and scientific &
-engineering software development, although more recently I have also been
-involved in kinetics & reaction engineering research.  My current projects at
-Dow Chemical are focused on developing rate-based models for gas-liquid
-separations.
+**Expertise areas**:
 
-Prior to joining Dow, I completed my Ph.D. at The University of Texas at Austin
-in the general area of statistical thermodynamics of liquids. Eventually I will
-attempt to write a high-level summary of my graduate work here, but in the
-meantime, here is a copy of my dissertation_.
+- Molecular thermodynamics
+- Molecular simulation
+- Gas-liquid mass transfer
+- Process simulation
+- Numerical methods
+- Software development
 
-I am interested in applying my skills in simulation and software development to
-a broad range of industrial topics including acid gas treating, carbon capture
-& storage, petroleum reservoir thermodynamics, and natural gas storage &
-production.
+**Interests / Applications**:
 
-Code
-----
+- Acid gas treating
+- Gas dehydration
+- Carbon capture & storage
+- Petroleum phase behavior
+- Natural gas storage & production
+- Reservoir modeling
 
-Most of my work these days is proprietary.  However, I'm in the process of
-moving some of my open projects (mostly from graduate school days) to github:
-`jorodo on github`_.  My biggest coding project in graduate school was
-writing JLS_, a Monte Carlo engine implementing several enhanced sampling
-techniques for core-softened model liquids.
-
-My most familiar languages are Python, C++, and C.  I'm fairly well acquainted
-with Fortran as well, and I'm experienced with application development on Linux
-and MS Windows.
-
-.. Resources
-.. ---------
-.. 
-.. Some resources and docs here.
-
+**Publications**: Scholar_ |br|\
+**Code**: GitHub_ |br|\
+**CV**: LinkedIn_ |br|\
+  
 Contacts
 --------
 
-Here are some of my contacts:
+- `Walter L. Dowdle`_
+- `Walt Dowdle`_
+- `Richard Darst`_
+- `Mike Depalatis`_
+- `Edwin van Elk-Penders`_
+- `Adam Willard`_
+- `Peter J. Rossky`_
 
-- `Walter L. Dowdle`_: Reservoir Engineer at Dowdle & Associates, Inc., with
-  whom I'm an Associate.  Also my father.
-- `Walt Dowdle`_:  Sr. Systems Engineer at Newgistics.  Also my brother.
-- `Richard Darst`_: Richard and I worked in the Rossky group together at UT
-  Austin.
-- `Mike Depalatis`_: I also know Mike through grad school at UT Austin.
-- `Adam Willard`_: Also a former Rossky group member.
-- `Peter J. Rossky`_:  My graduate advisor at Texas (now at Rice).
+.. |br| raw:: html
 
-
+	      <br />
+		 
 .. _LinkedIn: https://www.linkedin.com/in/jrdowdle
 
 .. _GitHub: https://github.com/jorodo
+
+.. _Scholar: https://scholar.google.com/citations?user=PSTpIbkAAAAJ&hl=en&oi=sra
 
 .. _dissertation: http://repositories.lib.utexas.edu/handle/2152/ETD-UT-2011-12-4428
 
@@ -90,8 +78,6 @@ Here are some of my contacts:
 
 .. _`Mike Depalatis`: http://mike.depalatis.net
 
-.. _`Edwin van Elk-Penders`:  http://vanelk.nl/edwin/
-
 .. _`Adam Willard`:  http://willardgroup.mit.edu/current_members.html
 
 .. _`Peter Rossky`:  http://naturalsciences.rice.edu/ShowContent.aspx?id=1232
@@ -101,4 +87,6 @@ Here are some of my contacts:
 .. _JLS: https://github.com/jorodo/jls
 
 .. _`Peter J. Rossky`: http://naturalsciences.rice.edu/ShowContent.aspx?id=1232
+
+.. _`Edwin van Elk-Penders`: http://www.vanelk.nl/modelling/
 
