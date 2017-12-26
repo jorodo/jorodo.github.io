@@ -1,0 +1,4072 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.13.1: http://docutils.sourceforge.net/" />
+<title></title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<table border="1" class="docutils">
+<colgroup>
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+<col width="1%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">ID</th>
+<th class="head">Bowl Name</th>
+<th class="head">Favorite</th>
+<th class="head">Underdog</th>
+<th class="head">Spread</th>
+<th class="head">#MamaBear</th>
+<th class="head">4 Rackets</th>
+<th class="head">Adrian A</th>
+<th class="head">Assistant Coach Riley?</th>
+<th class="head">Batman</th>
+<th class="head">Bay City Rollers</th>
+<th class="head">beach lady</th>
+<th class="head">Bevo's Best</th>
+<th class="head">Blind Dog's Bluff</th>
+<th class="head">Blindhog2017</th>
+<th class="head">Bobbo</th>
+<th class="head">Brothers before others</th>
+<th class="head">Bumblerooski</th>
+<th class="head">Clutch City</th>
+<th class="head">Coog Crew</th>
+<th class="head">Cowboy</th>
+<th class="head">cutie pie</th>
+<th class="head">D-Bo</th>
+<th class="head">Duke Rules</th>
+<th class="head">Eclipse</th>
+<th class="head">Em214</th>
+<th class="head">Escalante</th>
+<th class="head">GlamKam</th>
+<th class="head">Go For Bones</th>
+<th class="head">Go For Broke</th>
+<th class="head">Godiva Nine!</th>
+<th class="head">hapagirl</th>
+<th class="head">I lost the password to my first bracket</th>
+<th class="head">Jake and the Neverland Pirates</th>
+<th class="head">Josh's Bracket</th>
+<th class="head">Julez</th>
+<th class="head">Juul</th>
+<th class="head">Katyusha</th>
+<th class="head">Kevin's bracket</th>
+<th class="head">Lightning</th>
+<th class="head">Luck be a lady</th>
+<th class="head">Lucky in 2018</th>
+<th class="head">Make Bowl Season Great Again</th>
+<th class="head">Maui Girl</th>
+<th class="head">MidWestWheat</th>
+<th class="head">Nurse Ratched</th>
+<th class="head">OSUX3</th>
+<th class="head">Pepper Bear</th>
+<th class="head">Pooh Bear</th>
+<th class="head">Putin's Dog</th>
+<th class="head">Rapacke's Bracket</th>
+<th class="head">Nerf Herder</th>
+<th class="head">Santa Cruz Bill</th>
+<th class="head">Santa's Helper</th>
+<th class="head">Sgt. Pepper</th>
+<th class="head">Sorbet</th>
+<th class="head">Static</th>
+<th class="head">Still a Beaver Believer</th>
+<th class="head">Superman</th>
+<th class="head">Swampdonkey</th>
+<th class="head">Texas Big Red</th>
+<th class="head">The Pick Doctor</th>
+<th class="head">The Striker</th>
+<th class="head">The Water and The Well</th>
+<th class="head">Thunder</th>
+<th class="head">Trojans</th>
+<th class="head">Tucker</th>
+<th class="head">UrbranLegend</th>
+<th class="head">Victorious Secret</th>
+<th class="head">War Beaver</th>
+<th class="head">War Eagle</th>
+<th class="head">Warren Mooned Me</th>
+<th class="head">West Coast Bias</th>
+<th class="head">Winning Jeff</th>
+<th class="head">Yoda</th>
+<th class="head">YOLO Pups</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>1</td>
+<td>New Orleans Bowl</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>6.5</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>North Texas</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy<sup>*</sup></td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>Troy</td>
+<td>North Texas</td>
+<td>North Texas</td>
+<td>Troy</td>
+<td>North Texas</td>
+</tr>
+<tr><td>2</td>
+<td>Cure Bowl</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>6.0</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Western Kentucky</td>
+<td>Western Kentucky</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+<td>Georgia State</td>
+</tr>
+<tr><td>3</td>
+<td>Las Vegas Bowl</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>7.5</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Boise State</td>
+<td>Boise State</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon<sup>*</sup></td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon<sup>*</sup></td>
+<td>Boise State<sup>*</sup></td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Boise State</td>
+<td>Oregon<sup>*</sup></td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Oregon</td>
+<td>Boise State</td>
+<td>Oregon</td>
+<td>Oregon</td>
+</tr>
+<tr><td>4</td>
+<td>New Mexico Bowl</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>5.5</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall<sup>*</sup></td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Marshall</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+<td>Colorado State</td>
+</tr>
+<tr><td>5</td>
+<td>Camellia Bowl</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>3.5</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+<td>Middle Tennessee State</td>
+<td>Arkansas State</td>
+</tr>
+<tr><td>6</td>
+<td>Boca Raton Bowl</td>
+<td>Florida Atlantic</td>
+<td>Akron</td>
+<td>22.5</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Akron</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Akron</td>
+<td>Akron</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Akron</td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Akron</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Akron</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Akron</td>
+<td>Florida Atlantic<sup>*</sup></td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic</td>
+<td>Florida Atlantic</td>
+</tr>
+<tr><td>7</td>
+<td>Frisco Bowl</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>5.0</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist<sup>*</sup></td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist<sup>*</sup></td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Louisiana Tech</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+<td>Southern Methodist</td>
+</tr>
+<tr><td>8</td>
+<td>Gasparila Bowl</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>7.0</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Florida Internation (FIU)</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple<sup>*</sup></td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple<sup>*</sup></td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)<sup>*</sup></td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple<sup>*</sup></td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Florida Internation (FIU)</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple<sup>*</sup></td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Temple</td>
+<td>Florida Internation (FIU)</td>
+<td>Florida Internation (FIU)</td>
+<td>Temple</td>
+</tr>
+<tr><td>9</td>
+<td>Bahamas Bowl</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>7.5</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio<sup>*</sup></td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio<sup>*</sup></td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio<sup>*</sup></td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Ohio</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Alabama Birmingham (UAB)</td>
+<td>Ohio</td>
+<td>Ohio</td>
+</tr>
+<tr><td>10</td>
+<td>Famous Idaho Potato Bowl</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>1.0</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan<sup>*</sup></td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Central Michigan</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+<td>Wyoming</td>
+</tr>
+<tr><td>11</td>
+<td>Birmingham Bowl</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>2.5</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+<td>University South Florida (USF)</td>
+<td>University South Florida (USF)</td>
+<td>Texas Tech</td>
+<td>Texas Tech</td>
+</tr>
+<tr><td>12</td>
+<td>Armed Forces Bowl</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>7.0</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State<sup>*</sup></td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army<sup>*</sup></td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army<sup>*</sup></td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State<sup>*</sup></td>
+<td>Army</td>
+<td>Army<sup>*</sup></td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>Army<sup>*</sup></td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State</td>
+<td>San Diego State<sup>*</sup></td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>Army</td>
+<td>San Diego State</td>
+<td>San Diego State<sup>*</sup></td>
+<td>San Diego State<sup>*</sup></td>
+<td>Army</td>
+<td>Army</td>
+<td>San Diego State<sup>*</sup></td>
+</tr>
+<tr><td>13</td>
+<td>Dollar General Bowl</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>7.5</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo<sup>*</sup></td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Toledo<sup>*</sup></td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+<td>Toledo</td>
+<td>Appalachain State</td>
+<td>Appalachain State</td>
+<td>Toledo</td>
+</tr>
+<tr><td>14</td>
+<td>Hawaii Bowl</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>2.5</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Houston</td>
+<td>Houston</td>
+<td>Fresno State</td>
+<td>Fresno State</td>
+<td>Houston</td>
+</tr>
+<tr><td>15</td>
+<td>Heart of Dallas</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>7.0</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah<sup>*</sup></td>
+<td>Utah</td>
+<td>Utah</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>West Virginia</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+<td>Utah</td>
+</tr>
+<tr><td>16</td>
+<td>Quick Lane Bowl</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>4.5</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke<sup>*</sup></td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Northern Illinois</td>
+<td>Duke</td>
+</tr>
+<tr><td>17</td>
+<td>Cactus Bowl</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>2.5</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA<sup>*</sup></td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA<sup>*</sup></td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA<sup>*</sup></td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>UCLA</td>
+<td>Kansas State</td>
+<td>Kansas State</td>
+<td>UCLA</td>
+</tr>
+<tr><td>18</td>
+<td>Indpendence Bowl</td>
+<td>Florida State</td>
+<td>Southern Miss</td>
+<td>15.5</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Southern Miss</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Southern Miss</td>
+<td>Southern Miss</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Southern Miss</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State</td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Southern Miss</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Southern Miss</td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Southern Miss</td>
+<td>Florida State</td>
+<td>Florida State</td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State<sup>*</sup></td>
+<td>Florida State</td>
+<td>Southern Miss</td>
+<td>Florida State</td>
+<td>Florida State</td>
+</tr>
+<tr><td>19</td>
+<td>New Era Pinstripe Bowl</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>3.0</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College<sup>*</sup></td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Iowa</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Boston College</td>
+<td>Iowa</td>
+</tr>
+<tr><td>20</td>
+<td>Foster Farms</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>3.5</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Purdue</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+<td>Arizona</td>
+</tr>
+<tr><td>21</td>
+<td>Texas Bowl</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>3.0</td>
+<td>Texas<sup>*</sup></td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas<sup>*</sup></td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Missouri<sup>*</sup></td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Missouri<sup>*</sup></td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri<sup>*</sup></td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Missouri</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Missouri<sup>*</sup></td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Missouri</td>
+<td>Texas</td>
+<td>Texas</td>
+</tr>
+<tr><td>22</td>
+<td>Military Bowl</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>1.5</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Virginia</td>
+<td>Navy<sup>*</sup></td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy<sup>*</sup></td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy<sup>*</sup></td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia</td>
+<td>Virginia</td>
+<td>Navy</td>
+<td>Navy</td>
+<td>Virginia<sup>*</sup></td>
+<td>Navy</td>
+<td>Virginia</td>
+</tr>
+<tr><td>23</td>
+<td>Camping World Bowl</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>5.5</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State<sup>*</sup></td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State<sup>*</sup></td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State<sup>*</sup></td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Virginia Tech</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+<td>Oklahoma State</td>
+</tr>
+<tr><td>24</td>
+<td>Alamo Bowl</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>2.5</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford<sup>*</sup></td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)<sup>*</sup></td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)<sup>*</sup></td>
+<td>Stanford</td>
+<td>Texas Christian (TCU)</td>
+</tr>
+<tr><td>25</td>
+<td>Holiday Bowl</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>3.0</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+<td>Washington State</td>
+<td>Michigan State</td>
+</tr>
+<tr><td>26</td>
+<td>Belk Bowl</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>3.0</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M<sup>*</sup></td>
+<td>Texas A&amp;M</td>
+<td>Texas A&amp;M</td>
+<td>Wake Forest</td>
+<td>Texas A&amp;M</td>
+</tr>
+<tr><td>27</td>
+<td>Music City Bowl</td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>7.0</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern</td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern<sup>*</sup></td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Northwestern</td>
+<td>Kentucky</td>
+<td>Northwestern</td>
+</tr>
+<tr><td>28</td>
+<td>Arizona Bowl</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>4.0</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>Utah State</td>
+<td>Utah State</td>
+<td>New Mexico State</td>
+<td>New Mexico State</td>
+</tr>
+<tr><td>29</td>
+<td>Cotton Bowl</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>7.0</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Southern Cal (USC)</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State</td>
+<td>Southern Cal (USC)</td>
+<td>Southern Cal (USC)</td>
+<td>Ohio State<sup>*</sup></td>
+<td>Ohio State<sup>*</sup></td>
+<td>Southern Cal (USC)</td>
+</tr>
+<tr><td>30</td>
+<td>TaxSlayer Bowl</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>6.5</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Mississippi State</td>
+<td>Mississippi State<sup>*</sup></td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville<sup>*</sup></td>
+<td>Mississippi State<sup>*</sup></td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville</td>
+<td>Mississippi State</td>
+<td>Louisville<sup>*</sup></td>
+<td>Mississippi State</td>
+<td>Louisville<sup>*</sup></td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+<td>Louisville</td>
+</tr>
+<tr><td>31</td>
+<td>Fiesta Bowl</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>2.5</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington<sup>*</sup></td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington<sup>*</sup></td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Washington</td>
+<td>Penn State</td>
+</tr>
+<tr><td>32</td>
+<td>Orange Bowl</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>6.5</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Miami</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Wisconsin<sup>*</sup></td>
+<td>Miami</td>
+<td>Wisconsin</td>
+<td>Miami</td>
+<td>Miami</td>
+<td>Miami</td>
+<td>Miami</td>
+<td>Wisconsin</td>
+</tr>
+<tr><td>33</td>
+<td>Outback Bowl</td>
+<td>Michigan</td>
+<td>South Carolina</td>
+<td>7.5</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>South Carolina</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>South Carolina</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>Michigan</td>
+<td>Michigan<sup>*</sup></td>
+<td>South Carolina</td>
+<td>South Carolina</td>
+<td>South Carolina</td>
+</tr>
+<tr><td>34</td>
+<td>Peach Bowl</td>
+<td>Auburn</td>
+<td>University Central Florida (UCF)</td>
+<td>9.5</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn<sup>*</sup></td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+<td>University Central Florida (UCF)</td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>Auburn</td>
+<td>University Central Florida (UCF)</td>
+<td>Auburn</td>
+<td>Auburn<sup>*</sup></td>
+</tr>
+<tr><td>35</td>
+<td>Citrus Bowl</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>3.0</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)<sup>*</sup></td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+<td>Notre Dame</td>
+<td>Notre Dame</td>
+<td>Lousiana State (LSU)</td>
+</tr>
+<tr><td>36</td>
+<td>Rose Bowl ( playoff semifinal)</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>2.0</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Oklahoma<sup>*</sup></td>
+<td>Georgia<sup>*</sup></td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma<sup>*</sup></td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Oklahoma<sup>*</sup></td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia<sup>*</sup></td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma<sup>*</sup></td>
+<td>Oklahoma</td>
+</tr>
+<tr><td>37</td>
+<td>Sugar Bowl (playoff semifinal)</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>2.5</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Clemson<sup>*</sup></td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama<sup>*</sup></td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama<sup>*</sup></td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Alabama<sup>*</sup></td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Clemson<sup>*</sup></td>
+<td>Alabama<sup>*</sup></td>
+</tr>
+<tr><td>38</td>
+<td>Sun Bowl</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>6.0</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State<sup>*</sup></td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State<sup>*</sup></td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State<sup>*</sup></td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State<sup>*</sup></td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>North Carolina State</td>
+<td>Arizona State</td>
+<td>Arizona State</td>
+</tr>
+<tr><td>39</td>
+<td>Liberty Bowl</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>3.5</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State<sup>*</sup></td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Iowa State</td>
+<td>Memphis</td>
+</tr>
+<tr><td>B1</td>
+<td>Who will win the National Championship game (2pts)?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Georgia</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Clemson</td>
+<td>Georgia</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Georgia</td>
+<td>Alabama</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Oklahoma</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Alabama</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Clemson</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Alabama</td>
+<td>Clemson</td>
+<td>Clemson</td>
+<td>Georgia</td>
+<td>Georgia</td>
+<td>Oklahoma</td>
+<td>Clemson</td>
+<td>Oklahoma</td>
+<td>Oklahoma</td>
+<td>Clemson</td>
+<td>Alabama</td>
+</tr>
+<tr><td>B2</td>
+<td>Will South Carolina recover a Michigan fumble  in the Outback bowl?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr><td>B3</td>
+<td>Will JT Barrett (Ohio State) score more touchdowns (running and passing (and receiving)) than Sam Donald (USC)?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr><td>B4</td>
+<td>Will Dante Pettis have more than 20 yards in punt return yardage?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr><td>B5</td>
+<td>Will Clemson gain 345 yards of offense against Alabama?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr><td>B6</td>
+<td>Will Baker Mayfield have more than 325 yards passing against Georgia?</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr><td>T1</td>
+<td>Tie Breaker:  How many points will be scored by all four teams total in the semifinal games</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>132</td>
+<td>124</td>
+<td>110</td>
+<td>122</td>
+<td>149</td>
+<td>94</td>
+<td>100</td>
+<td>127</td>
+<td>154</td>
+<td>103</td>
+<td>108</td>
+<td>120</td>
+<td>115</td>
+<td>130</td>
+<td>140</td>
+<td>79</td>
+<td>74</td>
+<td>79</td>
+<td>140</td>
+<td>120</td>
+<td>120</td>
+<td>140</td>
+<td>120</td>
+<td>161</td>
+<td>111</td>
+<td>90</td>
+<td>122</td>
+<td>69</td>
+<td>64</td>
+<td>133</td>
+<td>96</td>
+<td>110</td>
+<td>147</td>
+<td>100</td>
+<td>120</td>
+<td>106</td>
+<td>90</td>
+<td>72</td>
+<td>125</td>
+<td>115</td>
+<td>120</td>
+<td>120</td>
+<td>70</td>
+<td>75</td>
+<td>154</td>
+<td>101</td>
+<td>102</td>
+<td>111</td>
+<td>59</td>
+<td>96</td>
+<td>130</td>
+<td>115</td>
+<td>120</td>
+<td>75</td>
+<td>108</td>
+<td>100</td>
+<td>119</td>
+<td>945</td>
+<td>112</td>
+<td>120</td>
+<td>79</td>
+<td>154</td>
+<td>85</td>
+<td>165</td>
+<td>90</td>
+<td>75</td>
+<td>145</td>
+<td>89</td>
+<td>5027</td>
+<td>61</td>
+<td>110</td>
+</tr>
+</tbody>
+</table>
+<p>* <em>Denotes sure thing bowl</em></p>
+</div>
+</body>
+</html>
