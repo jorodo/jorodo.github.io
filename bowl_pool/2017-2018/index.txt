@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-27 08:59:26*
-| *Last bowl scored:  Cactus Bowl (Kansas State vs. UCLA)*
+| *Last updated:  2017-12-27 17:28:43*
+| *Last bowl scored:  Indpendence Bowl (Florida State vs. Southern Miss)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
