@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-26 17:06:41*
-| *Last bowl scored:  Heart of Dallas (Utah vs. West Virginia)*
+| *Last updated:  2017-12-26 19:38:35*
+| *Last bowl scored:  Quick Lane Bowl (Duke vs. Northern Illinois)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
