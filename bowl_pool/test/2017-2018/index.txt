@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-27 20:49:41*
-| *Last bowl scored:  New Era Pinstripe Bowl (Iowa vs. Boston College)*
+| *Last updated:  2017-12-28 00:31:53*
+| *Last bowl scored:  Texas Bowl (Missouri vs. Texas)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
