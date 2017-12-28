@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-27 17:28:40*
-| *Last bowl scored:  Indpendence Bowl (Florida State vs. Southern Miss)*
+| *Last updated:  2017-12-27 20:49:41*
+| *Last bowl scored:  New Era Pinstripe Bowl (Iowa vs. Boston College)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
