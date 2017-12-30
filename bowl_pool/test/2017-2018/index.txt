@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-30 08:25:22*
-| *Last bowl scored:  Cotton Bowl (Ohio State vs. Southern Cal (USC))*
+| *Last updated:  2017-12-30 15:32:54*
+| *Last bowl scored:  Fiesta Bowl (Penn State vs. Washington)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
