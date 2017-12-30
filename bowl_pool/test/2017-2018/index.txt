@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-29 00:38:32*
-| *Last bowl scored:  Holiday Bowl (Washington State vs. Michigan State)*
+| *Last updated:  2017-12-29 21:41:44*
+| *Last bowl scored:  Arizona Bowl (New Mexico State vs. Utah State)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
