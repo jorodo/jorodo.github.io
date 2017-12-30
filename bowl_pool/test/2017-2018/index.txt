@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-29 21:41:44*
-| *Last bowl scored:  Arizona Bowl (New Mexico State vs. Utah State)*
+| *Last updated:  2017-12-30 08:25:22*
+| *Last bowl scored:  Cotton Bowl (Ohio State vs. Southern Cal (USC))*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
