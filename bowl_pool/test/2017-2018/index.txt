@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-30 15:32:54*
-| *Last bowl scored:  Fiesta Bowl (Penn State vs. Washington)*
+| *Last updated:  2017-12-30 21:10:41*
+| *Last bowl scored:  Orange Bowl (Wisconsin vs. Miami)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
