@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-30 22:38:02*
-| *Last bowl scored:  Orange Bowl (Wisconsin vs. Miami)*
+| *Last updated:  2017-12-30 23:00:17*
+| *Last bowl scored:  Outback Bowl (Michigan vs. South Carolina)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
