@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2018-01-01 20:50:27*
-| *Last bowl scored:  Rose Bowl (playoff semifinal) (Georgia vs. Oklahoma)*
+| *Last updated:  2018-01-02 00:12:24*
+| *Last bowl scored:  Sugar Bowl (playoff semifinal) (Alabama vs. Clemson)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
