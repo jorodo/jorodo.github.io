@@ -1,74 +1,74 @@
-| *Last updated:  2018-01-01 18:08:45*
-| *Last bowl scored:  Citrus Bowl (Lousiana State (LSU) vs. Notre Dame)*
+| *Last updated:  2018-01-01 20:50:28*
+| *Last bowl scored:  Rose Bowl (playoff semifinal) (Georgia vs. Oklahoma)*
 
-| 1. Winning Jeff 34.0
-| 2. Trojans 33.75
-| 3. Tucker 33.25
-| 4. UrbranLegend 32.75
-| 5. The Water and The Well 32.25
-| 6. Clutch City 32.0
-| 6. The Pick Doctor 32.0
-| 8. Bevo's Best 31.25
-| 9. Cowboy 31.0
-| 10. beach lady 30.75
-| 11. Bobbo 30.5
-| 11. Go For Broke 30.5
-| 13. Coog Crew 29.75
-| 13. cutie pie 29.75
-| 13. Jake and the Neverland Pirates 29.75
-| 16. 4 Rackets 29.25
-| 16. Godiva Nine! 29.25
-| 16. Pooh Bear 29.25
-| 16. Putin's Dog 29.25
-| 16. Yoda 29.25
-| 21. I lost the password to my first bracket 29.0
-| 21. MidWestWheat 29.0
-| 21. War Eagle 29.0
-| 24. **Bumblerooski 28.75**
-| 24. **Eclipse 28.75**
-| 26. Bay City Rollers 28.5
-| 26. Juul 28.5
-| 26. Rapacke's Bracket 28.5
-| 26. Superman 28.5
-| 30. Make Bowl Season Great Again 28.25
-| 31. Luck be a lady 27.5
-| 32. Sorbet 27.0
-| 32. **Static 27.0**
-| 32. Still a Beaver Believer 27.0
-| 32. **Thunder 27.0**
-| 36. Santa Cruz Bill 26.75
-| 37. **#MamaBear 26.5**
-| 37. Kevin's bracket 26.5
-| 39. Katyusha 26.25
-| 39. **Nerf Herder 26.25**
-| 39. Texas Big Red 26.25
-| 39. Victorious Secret 26.25
-| 43. Pepper Bear 26.0
-| 44. Batman 25.75
-| 44. Lucky in 2018 25.75
-| 46. **GlamKam 25.5**
-| 47. Assistant Coach Riley? 25.25
-| 48. Blindhog2017 25.0
-| 49. Blind Dog's Bluff 24.75
-| 49. Escalante 24.75
-| 49. Go For Bones 24.75
-| 49. Josh's Bracket 24.75
-| 53. Brothers before others 24.25
-| 54. Adrian A 24.0
-| 54. OSUX3 24.0
-| 56. Julez 23.75
-| 56. Santa's Helper 23.75
-| 56. Sgt. Pepper 23.75
-| 59. The Striker 23.5
-| 60. **D-Bo 23.25**
-| 61. YOLO Pups 23.0
-| 62. War Beaver 22.75
-| 63. hapagirl 22.25
-| 63. Nurse Ratched 22.25
-| 65. Maui Girl 21.75
-| 66. **Lightning 21.5**
-| 67. Duke Rules 21.25
-| 68. Warren Mooned Me 21.0
-| 69. **Em214 20.5**
-| 70. Swampdonkey 20.25
+| 1. Winning Jeff 37.0
+| 2. Trojans 36.75
+| 3. Clutch City 35.0
+| 3. The Pick Doctor 35.0
+| 5. Bevo's Best 34.25
+| 6. beach lady 33.75
+| 6. UrbranLegend 33.75
+| 8. The Water and The Well 33.25
+| 8. Tucker 33.25
+| 10. Cowboy 33.0
+| 11. cutie pie 32.75
+| 12. Rapacke's Bracket 32.5
+| 13. Putin's Dog 32.25
+| 14. Go For Broke 31.5
+| 15. I lost the password to my first bracket 31.0
+| 16. Coog Crew 30.75
+| 17. Bay City Rollers 30.5
+| 17. Bobbo 30.5
+| 17. Superman 30.5
+| 20. Make Bowl Season Great Again 30.25
+| 20. Pooh Bear 30.25
+| 20. Yoda 30.25
+| 23. MidWestWheat 30.0
+| 23. **Thunder 30.0**
+| 23. War Eagle 30.0
+| 26. **Bumblerooski 29.75**
+| 26. Jake and the Neverland Pirates 29.75
+| 28. Kevin's bracket 29.5
+| 28. Luck be a lady 29.5
+| 30. 4 Rackets 29.25
+| 30. Assistant Coach Riley? 29.25
+| 30. Godiva Nine! 29.25
+| 30. **Nerf Herder 29.25**
+| 30. Texas Big Red 29.25
+| 30. Victorious Secret 29.25
+| 36. Sorbet 29.0
+| 36. **Static 29.0**
+| 38. **Eclipse 28.75**
+| 39. **GlamKam 28.5**
+| 39. Juul 28.5
+| 41. Katyusha 28.25
+| 42. Pepper Bear 28.0
+| 43. Blind Dog's Bluff 27.75
+| 44. **#MamaBear 27.5**
+| 45. Brothers before others 27.25
+| 46. Still a Beaver Believer 27.0
+| 47. Batman 26.75
+| 47. Go For Bones 26.75
+| 47. Julez 26.75
+| 47. Lucky in 2018 26.75
+| 47. Santa Cruz Bill 26.75
+| 52. **D-Bo 26.25**
+| 53. Blindhog2017 26.0
+| 54. Escalante 25.75
+| 54. Josh's Bracket 25.75
+| 54. War Beaver 25.75
+| 57. Santa's Helper 24.75
+| 58. Adrian A 24.0
+| 58. OSUX3 24.0
+| 58. YOLO Pups 24.0
+| 61. Maui Girl 23.75
+| 61. Sgt. Pepper 23.75
+| 63. **Em214 23.5**
+| 63. The Striker 23.5
+| 65. Swampdonkey 23.25
+| 66. **Lightning 22.5**
+| 67. hapagirl 22.25
+| 67. Nurse Ratched 22.25
+| 69. Warren Mooned Me 22.0
+| 70. Duke Rules 21.25
 | 71. West Coast Bias 16.25

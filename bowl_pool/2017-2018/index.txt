@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2018-01-01 18:08:45*
-| *Last bowl scored:  Citrus Bowl (Lousiana State (LSU) vs. Notre Dame)*
+| *Last updated:  2018-01-01 20:50:29*
+| *Last bowl scored:  Rose Bowl (playoff semifinal) (Georgia vs. Oklahoma)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
