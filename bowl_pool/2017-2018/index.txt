@@ -1,7 +1,7 @@
 **2017-2018 Bowl Pool**
 
-| *Last updated:  2017-12-30 23:00:19*
-| *Last bowl scored:  Outback Bowl (Michigan vs. South Carolina)*
+| *Last updated:  2018-01-01 18:08:45*
+| *Last bowl scored:  Citrus Bowl (Lousiana State (LSU) vs. Notre Dame)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
