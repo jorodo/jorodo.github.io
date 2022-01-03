@@ -1,0 +1,30 @@
+#,Bowl Name,Favorite,Underdog,Spread,Bumblerooski,Can't Stop a Badger!,Knights of Ren,Leeerroyyy Jeennkinns!!,Ms. Snuffleupagus,Sweet Lou
+
+1,QUICK LANE BOWL,Western Michigan,Nevada,7.5,Nevada*,Nevada,Western Michigan,Nevada*,Nevada,Nevada
+2,BIRMINGHAM BOWL,Auburn,Houston,2.5,Auburn,Auburn,Auburn,Houston,Auburn,Auburn
+3,FIRST RESPONDER BOWL,Louisville,Air Force,1.5,Air Force,Air Force,Louisville,Air Force,Louisville,Louisville
+4,LIBERTY BOWL,Mississippi State,Texas Tech,9.5,Mississippi State*,Mississippi State,Mississippi State*,Texas Tech,Mississippi State*,Mississippi State*
+5,GUARANTEED RATE BOWL,Minnesota,West Virginia,1.5,Minnesota,Minnesota,Minnesota,West Virginia,Minnesota,Minnesota
+6,PINSTRIPE BOWL,Maryland,Virginia Tech,3.5,Virginia Tech,Virginia Tech,Maryland,Virginia Tech,Maryland,Maryland
+7,CHEEZ-IT BOWL,Clemson,Iowa State,1.0,Clemson,Clemson,Clemson,Iowa State,Clemson,Clemson
+8,ALAMO BOWL,Oklahoma,Oregon,4.5,Oregon,Oklahoma,Oklahoma,Oregon,Oregon,Oklahoma
+9,DUKE'S MAYO BOWL,North Carolina,South Carolina,9.0,South Carolina,South Carolina,North Carolina,South Carolina,North Carolina,North Carolina
+10,MUSIC CITY BOWL,Tennesse,Purdue,5.0,Purdue,Purdue*,Tennesse,Purdue,Purdue,Purdue
+11,PEACH BOWL,Michigan State,Pittsburgh,2.5,Michigan State,Michigan State,Michigan State,Pittsburgh,Michigan State,Michigan State
+12,LAS VEGAS BOWL,Wisconsin ,Arizona State,6.5,Arizona State,Wisconsin *,Wisconsin ,Arizona State,Arizona State,Wisconsin 
+13,GATOR BOWL,Wake Forest,Rutgers,11.5,Wake Forest,Wake Forest*,Wake Forest*,Rutgers,Wake Forest*,Wake Forest*
+14,COTTON BOWL ,Alabama,Cincinnati,13.5,Cincinnati,Alabama,Alabama*,Cincinnati*,Alabama*,Alabama*
+15,ORANGE BOWL,Georgia,Michigan,7.5,Michigan,Michigan,Georgia,Michigan*,Michigan,Michigan
+16,OUTBACK BOWL,Penn State,Arkansas,1.0,Penn State,Arkansas,Penn State,Arkansas,Penn State,Arkansas
+17,CITRUS BOWL,Kentucky,Iowa,3.0,Kentucky,Iowa,Kentucky,Iowa,Kentucky,Iowa
+18,FIESTA BOWL,Notre Dame,Oklahoma State,1.5,Notre Dame,Notre Dame,Notre Dame,Oklahoma State,Notre Dame,Notre Dame
+19,ROSE BOWL,Ohio State,Utah,6.5,Ohio State,Utah,Ohio State,Utah,Ohio State,Utah
+20,SUGAR BOWL,Ole Miss,Baylor,1.0,Baylor,Baylor,Ole Miss,Baylor,Baylor,Baylor
+21,TEXAS BOWL,Kansas State,LSU,3.5,LSU,LSU,Kansas State,LSU,Kansas State,Kansas State
+B1,Who will win the National Championship?, , , ,Michigan,Alabama,Alabama,Cincinatti,Alabama,Alabama
+B2,How many of these teams will cancel their bowl game?, , , ,4,4,2,6,4,5
+B3,Will Baylor hold Ole Miss to under their season average of 36 points?, , , ,No,Yes,No,Yes,Yes,Yes
+B4,How many of these games will the Big 12 win?, , , ,2,3,0,3,3,3
+B5,How many of these games will the SEC win?, , , ,5,5,5,4,4,5
+T1,Total points for BOTH semifinal games, , , ,95,90,120,80,100,100
+
