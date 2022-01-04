@@ -1,6 +1,6 @@
 **2021-2022 Bowl Pool**
 
-| *Last updated:  2022-01-03 23:34:20*
+| *Last updated:  2022-01-03 23:55:20*
 | *Last bowl scored:  SUGAR BOWL (Ole Miss vs. Baylor)*
 
 
@@ -11,6 +11,6 @@
 Analysis
 
 - `Score distribution <scoresHistogram.png>`_
-- `Points Trajectories <pointsTrajectories.png>`_
-- `Rankings Trajectories <rankingsTrajectories.png>`_
+- `Points trajectories <pointsTrajectories.png>`_
+- `Rankings trajectories <rankingsTrajectories.png>`_
 
