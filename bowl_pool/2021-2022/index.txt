@@ -1,7 +1,7 @@
 **2021-2022 Bowl Pool**
 
-| *Last updated:  2022-01-05 10:43:38*
-| *Last bowl scored:  SUGAR BOWL (Ole Miss vs. Baylor)*
+| *Last updated:  2022-01-05 10:49:12*
+| *Last bowl scored:  TEXAS BOWL (Kansas State vs. LSU)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
