@@ -1,7 +1,7 @@
 **2022-2023 Bowl Pool**
 
-| *Last updated:  2022-12-29 23:59:40*
-| *Last bowl scored:  Alamo Bowl (Texas vs. Washington)*
+| *Last updated:  2022-12-30 22:44:49*
+| *Last bowl scored:  Orange Bowl (Clemson vs. Tennessee)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
