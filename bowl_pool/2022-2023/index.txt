@@ -1,7 +1,7 @@
 **2022-2023 Bowl Pool**
 
-| *Last updated:  2023-01-01 00:14:16*
-| *Last bowl scored:  Peach Bowl (Georgia vs. Ohio State)*
+| *Last updated:  2023-01-02 23:03:40*
+| *Last bowl scored:  Rose Bowl (Utah vs. Penn State)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
