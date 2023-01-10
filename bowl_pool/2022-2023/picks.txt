@@ -37,8 +37,8 @@
    "B1", "Who will win the National Championship?", " ", " ", " ", "Georgia", "Michigan", "Georgia", "TCU", "Michigan", "Georgia", "Georgia", "Michigan", "Michigan", "Michigan", "Michigan", "Michigan", "Georgia", "Georgia", "Georgia", "Georgia"
    "B2", "How many of these teams will cancel their bowl game?", " ", " ", " ", "0", "0", "0", "10", "0", "2", "2", "3", "0", "0", "5", "0", "0", "0", "0", "1"
    "B3", "Will more than 62 total points be scored in the Peach Bowl?", " ", " ", " ", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "No", "Yes", "Yes"
-   "B4", "Will more than 58.5 total points be scored in the Fiesta Bowl?", " ", " ", " ", "No", "Yes", "Yes", "No", "No", "No", "No", "Yes", "No", "No", "No", "No", "Yes", "Yes", "Yes", "No"
-   "B5", "Will Caleb Williams pass for more than 300 yards against Tulane?", " ", " ", " ", "No", "Yes", "Yes", "No", "No", "Yes", "Yes", "Yes", "No", "Yes", "No", "Yes", "No", "No", "Yes", "No"
+   "B4", "Will more than 58.5 total points be scored in the Fiesta Bowl?", " ", " ", " ", "No", "Yes", "Yes", "No", "No", "No", "No", "No", "No", "No", "No", "No", "Yes", "Yes", "Yes", "No"
+   "B5", "Will Caleb Williams pass for more than 300 yards against Tulane?", " ", " ", " ", "No", "Yes", "Yes", "No", "No", "Yes", "No", "No", "No", "Yes", "No", "No", "No", "No", "Yes", "No"
    "B6", "Will an orange-colored team win the Orange Bowl?", " ", " ", " ", "Yes", "Yes", "Yes", "No", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"
 
 \* *Denotes sure thing bowl*
