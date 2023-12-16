@@ -1,7 +1,7 @@
-**2022-2023_Bonus Bowl Pool**
+**2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-16 16:31:12*
-| *Last bowl scored:  National Championship (Georgia vs. TCU)*
+| *Last updated:  2023-12-16 17:27:57*
+| *Last bowl scored:  New Orleans Bowl (Jacksonville State vs. Louisiana Lafayette)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)

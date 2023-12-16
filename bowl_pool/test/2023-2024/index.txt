@@ -1,7 +1,7 @@
-**2022-2023_Bonus Bowl Pool**
+**2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-16 16:31:12*
-| *Last bowl scored:  National Championship (Georgia vs. TCU)*
+| *Last updated:  2023-12-16 16:58:32*
+| *Last bowl scored:  Myrtle Beach Bowl (Georgia Southern vs. Ohio)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
