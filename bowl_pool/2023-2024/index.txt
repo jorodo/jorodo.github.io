@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-16 17:27:57*
-| *Last bowl scored:  New Orleans Bowl (Jacksonville State vs. Louisiana Lafayette)*
+| *Last updated:  2023-12-17 10:39:39*
+| *Last bowl scored:  Independence Bowl (Texas Tech vs. California)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
