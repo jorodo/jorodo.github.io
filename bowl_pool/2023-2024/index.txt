@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-17 10:39:39*
-| *Last bowl scored:  Independence Bowl (Texas Tech vs. California)*
+| *Last updated:  2023-12-19 07:19:21*
+| *Last bowl scored:  Famous Toastery Bowl (Old Dominion vs. Western Kentucky)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
