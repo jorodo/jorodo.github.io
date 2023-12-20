@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-19 07:19:21*
-| *Last bowl scored:  Famous Toastery Bowl (Old Dominion vs. Western Kentucky)*
+| *Last updated:  2023-12-20 09:24:47*
+| *Last bowl scored:  Frisco Bowl (UTSA vs. Marshall)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
