@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-22 11:45:15*
-| *Last bowl scored:  Boca Raton Bowl (Syracuse vs. South Florida)*
+| *Last updated:  2023-12-23 14:34:11*
+| *Last bowl scored:  Birmingham Bowl (Troy vs. Duke)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
