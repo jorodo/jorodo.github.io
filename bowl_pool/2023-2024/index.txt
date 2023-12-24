@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-23 14:34:11*
-| *Last bowl scored:  Birmingham Bowl (Troy vs. Duke)*
+| *Last updated:  2023-12-24 10:50:46*
+| *Last bowl scored:  HawaiiBowl (San Jose State vs. Coastal Carolina)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
