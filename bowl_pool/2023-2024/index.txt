@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-24 11:08:42*
-| *Last bowl scored:  HawaiiBowl (San Jose State vs. Coastal Carolina)*
+| *Last updated:  2023-12-27 14:01:42*
+| *Last bowl scored:  Guaranteed Rate Bowl (Kansas vs. UNLV)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
