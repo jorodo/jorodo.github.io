@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-27 14:04:42*
-| *Last bowl scored:  Guaranteed Rate Bowl (Kansas vs. UNLV)*
+| *Last updated:  2023-12-28 09:14:37*
+| *Last bowl scored:  TexasBowl (Texas A&M vs. Oklahoma State)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
