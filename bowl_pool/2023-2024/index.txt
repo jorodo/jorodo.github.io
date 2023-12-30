@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-29 19:30:43*
-| *Last bowl scored:  LibertyBowl (Iowa State vs. Memphis)*
+| *Last updated:  2023-12-30 10:30:13*
+| *Last bowl scored:  Cotton Bowl (Ohio State vs. Missouri)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
