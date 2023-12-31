@@ -1,7 +1,7 @@
 **2023-2024 Bowl Pool**
 
-| *Last updated:  2023-12-30 18:15:45*
-| *Last bowl scored:  Orange Bowl (Georgia vs. Florida State)*
+| *Last updated:  2023-12-30 18:58:00*
+| *Last bowl scored:  Arizona Bowl (Toledo vs. Wyoming)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
