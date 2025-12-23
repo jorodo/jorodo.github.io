@@ -1,0 +1,19 @@
+.. csv-table:: 
+   :header: "ID", "Bowl Name", "Favorite", "Underdog", "Spread", Barkside Ballers, Vibe-free since '73, Dazed and Confoosballed, Sascha Picks Dogs, The New Mendoza Line, Sherrone Moore's Bad Day, Momma Longhorn, bugaroo, Sierra LeCat Dowdle
+
+   "1", "MYRTLE BEACH BOWL", "Western Michigan", "Kennesaw State", "4.5", "1.0", "0.0", "1.0", "0.0", "0.0", "1.0", "0.0", "0.0", "0.0"
+   "2", "UNION HOME MORTGAGE GASPARILLA BOWL", "NC State", "Memphis", "6.0", "1.0", "1.0", "1.0", "0.0", "0.0", "2.0\ :sup:`*`", "0.0", "1.0", "1.0"
+   "3", "CFP First Round", "Oklahoma", "Alabama", "1.5", "2.0", "2.0", "2.0", "2.0", "0.0", "2.0", "0.0", "2.0", "2.0"
+   "4", "CFP First Round", "Texas A&M", "Miami", "3.5", "2.5", "2.5", "0.0", "2.5", "0.0", "2.5", "0.0", "0.0", "2.5"
+   "5", "CFP First Round", "Ole Miss", "Tulane", "17.5", "0.0", "2.0", "2.0", "0.0", "0.0", "2.0", "2.0", "2.0", "0.0"
+   "6", "CFP First Round", "Oregon", "James Madison", "21.5", "2.0", "2.0", "2.0", "0.0", "2.0", "0.0", "2.0", "2.0", "0.0"
+   "7", "FAMOUS IDAHO POTATO BOWL", "Utah State", "Washington State", "3.0", "1.25", "1.25", "1.25", "1.25", "0.0", "1.25", "1.25", "0.0", "1.25"
+   "B1", "Who will win the National Championship?", " ", " ", " ", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0"
+   "B2", "Will more than 62 total points be scored in the Sugar Bowl (Texas vs. Washington)?", " ", " ", " ", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0"
+   "B3", "Will Michael Penix pass for more than 309 yards against Texas?", " ", " ", " ", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0"
+   "B4", "Will more than 44 total points be scored in the Rose Bowl (Michigan vs. Alabama)?", " ", " ", " ", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0"
+   "B5", "Will Jalen Milroe have more than 234 yards of total offense against Michigan?", " ", " ", " ", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0"
+   "**Totals**", " ", " ", " ", " ", "**9.75**", "**10.75**", "**9.25**", "**5.75**", "**2.0**", "**10.75**", "**5.25**", "**7.0**", "**6.75**"
+
+\* *Includes sure thing bowl bonus point*
+

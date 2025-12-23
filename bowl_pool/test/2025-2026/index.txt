@@ -1,0 +1,16 @@
+**2025-2026 Bowl Pool**
+
+| *Last updated:  2025-12-22 18:02:16*
+| *Last bowl scored:  FAMOUS IDAHO POTATO BOWL (Utah State vs. Washington State)*
+
+
+- `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
+- `Results <results.html>`_ (`csv <results.csv>`__)
+- `Picks <picks.html>`_ (`csv <picks.csv>`__)
+
+Analysis
+
+- `Score distribution <scoresHistogram.png>`_
+- `Points trajectories <pointsTrajectories.png>`_
+- `Rankings trajectories <rankingsTrajectories.png>`_
+
