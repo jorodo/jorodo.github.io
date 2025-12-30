@@ -1,7 +1,7 @@
 **2025-2026 Bowl Pool**
 
-| *Last updated:  2025-12-28 00:19:04*
-| *Last bowl scored:  TEXAS BOWL (Houston vs. LSU)*
+| *Last updated:  2025-12-29 18:36:23*
+| *Last bowl scored:  BIRMINGHAM BOWL (Georgia Southern vs. Appalachain State)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
