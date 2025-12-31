@@ -1,7 +1,7 @@
 **2025-2026_Non-CFP Bowl Pool**
 
-| *Last updated:  2025-12-31 02:21:36*
-| *Last bowl scored:  ALAMO BOWL (USC vs. TCU)*
+| *Last updated:  2025-12-31 14:41:47*
+| *Last bowl scored:  RELIAQUEST BOWL (Vanderbilt vs. Iowa)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
