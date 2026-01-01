@@ -1,7 +1,7 @@
 **2025-2026 Bowl Pool**
 
-| *Last updated:  2025-12-31 14:41:49*
-| *Last bowl scored:  RELIAQUEST BOWL (Vanderbilt vs. Iowa)*
+| *Last updated:  2025-12-31 22:20:33*
+| *Last bowl scored:  CFP Quarterfinal (Cotton) (Ohio State vs. Miami)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
