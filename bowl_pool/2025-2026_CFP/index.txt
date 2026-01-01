@@ -1,7 +1,7 @@
 **2025-2026_CFP Bowl Pool**
 
-| *Last updated:  2025-12-31 22:20:32*
-| *Last bowl scored:  CFP First Round (Oregon vs. James Madison)*
+| *Last updated:  2025-12-31 22:23:47*
+| *Last bowl scored:  CFP Quarterfinal (Cotton) (Ohio State vs. Miami)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
