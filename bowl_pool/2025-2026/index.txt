@@ -1,7 +1,7 @@
 **2025-2026 Bowl Pool**
 
-| *Last updated:  2026-01-01 16:21:32*
-| *Last bowl scored:  CFP Quarterfinal (Orange) (Texas Tech vs. Oregon)*
+| *Last updated:  2026-01-01 18:21:19*
+| *Last bowl scored:  CFP Quarterfinal (Rose) (Indiana vs. Alabama)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
