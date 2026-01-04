@@ -1,7 +1,7 @@
 **2025-2026_Non-CFP Bowl Pool**
 
-| *Last updated:  2026-01-02 20:56:01*
-| *Last bowl scored:  LIBERTY BOWL (Cincinnati vs. Navy)*
+| *Last updated:  2026-01-04 12:18:50*
+| *Last bowl scored:  HOLIDAY BOWL (Arizona vs. SMU)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
