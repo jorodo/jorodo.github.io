@@ -1,7 +1,7 @@
 **2025-2026_CFP Bowl Pool**
 
-| *Last updated:  2026-01-08 22:43:19*
-| *Last bowl scored:  CFP Semifinal (Fiesta) (Miami vs. Ole Miss)*
+| *Last updated:  2026-01-11 17:57:13*
+| *Last bowl scored:  CFP Semifinal (Peach) (Oregon vs. Indiana)*
 
 
 - `Rankings <rankings.html>`_ (`csv <rankings.csv>`__)
